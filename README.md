@@ -1,77 +1,49 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Tic-Tac-Toe
+# Lab Template
 
-Make the game Tic-Tac-Toe using HTML, CSS, and JavaScript!
+Use this template to structure your READMEs for labs.
+
+Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
+configuration ([`.remarkrc`](.remarkrc)).
 
 ## Prerequisites
 
-* Semantic HTML
-* CSS styling and layout
-* CSS Grid
-* JavaScript programming
-* Working with the DOM
-* JavaScript events
+* Topics with which developers should be familiar with.
+* Prerequisites are "just-in-time", so if I have a prerequisite that mentions
+  Sass, I would **not** need to include CSS as a prerequisite.
+* [Links to previous materials](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+  are often useful.
+* In a challenge, it is useful to link to reference material, such as talk
+  repositories.
 
 ## Instructions
 
 1. Fork and clone this repository.
 1. Change into the new directory.
+1. Install dependencies.
 1. Fulfill the listed requirements.
 
 Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-Your goal is to build out a working version of Tic-Tac-Toe. This is to get you
-ready to build out a more complex game for your project so in addition to
-practicing the technical skills you've learned in class, you'll practice scoping
-out a large project, breaking it into smaller pieces, and working towards those
-goals in sequence.
+Describe behavioral requirements as you'll be using them in tests. That is,
+list requirements in language that describes how the written code will be used,
+not how it will be written, with the exception of constraints you may wish to
+place on implementation. It's a good idea to include the below paragraph
+verbatim.
 
-You're going to build out your Tic-Tac-Toe game in two phases! We'll define the
-goals for each phase, but you should break these down into even smaller steps.
+## Bonus
 
-### Phase 1: Player-scored Version
+Bonuses are described after the requirements, if included. They should be worked
+on **only after** passing requirements.
 
-Build out a 3x3 grid with clickable squares. When a user clicks on a square, it
-should turn red or blue (alternating with each click). Once a square has been
-clicked, a user should not be able to click it again and change it's color.
-Below your 3x3 grid, you should have a 'reset' button that will reset the game.
+Less experienced students should be able to complete the base requirements in
+the alloted time for labs and in around 2 hours for homework; more experienced
+students should be to complete the bonus.
 
-**Bonus requirements:**
-
-* Have a message somewhere in your UI to show who the current player is (i.e.
-    `red's turn` or `blue's turn`)
-
-**Additional Resources:**
-
-* [MDN Pointer
-    Events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
-
-### Phase 2: Dumbly-scored Version
-
-> Students will often jump straight in to building a complex algorithm to
-> determine if a player has won. While the enthusiasm is great, it's often
-> better to start with a 'dumb' version and then work towards a 'smart' version.
-
-The goal of this phase is to make it so that players don't have to manually
-score the game. Instead, you're going to write some code that will check the
-board with every turn:
-
-* If a player has won, display a message with which player won the game (i.e. red or blue)
-* If all the squares are filled in and no player has won yet, display a message saying it's a tie
-* In both cases, the users should be able to reset the game
-
-In games where there are a limited number of winning combinations, a great
-first-step to auto-calculating the winner is to hold those winning combinations
-in some format (maybe an array) and check the current game against those winning
-combinations. If one of the winning combinations matches the gameboard, then you
-know a player has won!
-
-However, doing so requires modeling the current state of the gameboard in your
-code. So, in addition to updating your UI whenever a player makes a move, you'll
-also have to update some representation of the gameboard in your game code.
+Sometimes, we ask questions that promote thinking critically about code.
 
 ## Plagiarism
 
