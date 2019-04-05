@@ -2,48 +2,37 @@
 
 # Lab Template
 
-Use this template to structure your READMEs for labs.
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)).
+You've been tasked with building a Game of Thrones fan page, featuring your favorite characters and a short bio for each one. You can't truly honor the Queen of Dragons with a static HTML/CSS page. You need to add some interactivity!
 
 ## Prerequisites
 
-* Topics with which developers should be familiar with.
-* Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-  Sass, I would **not** need to include CSS as a prerequisite.
-* [Links to previous materials](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-  are often useful.
-* In a challenge, it is useful to link to reference material, such as talk
-  repositories.
+* The DOM
+* Events and event listeners
 
 ## Instructions
 
 1. Fork and clone this repository.
-1. Change into the new directory.
-1. Install dependencies.
-1. Fulfill the listed requirements.
+2. Change into the new directory.
+3. Fulfill the listed requirements.
 
 Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
+The starter code has been provided for you. `index.html` and `style.css` include the initial structure and styling. In `script.js`, you will find an array of objects with each character's name and bio.
 
-## Bonus
+1. Add a button to each character's `div` that prints the name of each character to the console.
+2. Add more functionality to the button: when clicked, the bio of the character appears under their image.
+3. Add an input field and submit button at the top of the page. When the submit button is clicked, only the character that was entered into the input field should remain.
+4. Using an event listener, add a border around each character's `div` when the mouse is hovered over it.
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
+## Bonus 1
 
-Less experienced students should be able to complete the base requirements in
-the alloted time for labs and in around 2 hours for homework; more experienced
-students should be to complete the bonus.
+Remove case sensitivity from the input field.
 
-Sometimes, we ask questions that promote thinking critically about code.
+## Bonus 2
+
+Instead of using a button, when the user clicks anywhere within the character's `div`, it will expand to include their bio. When the user clicks again, it retracts to its initial state.
 
 ## Plagiarism
 
