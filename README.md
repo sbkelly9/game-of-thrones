@@ -28,7 +28,7 @@ The starter code has been provided for you. `index.html` and `style.css` include
 
 ## Bonus 1
 
-Remove case sensitivity from the input field.
+Have the GOT character who matches the input as the user is typing, instead of when the user click submit.
 
 ## Bonus 2
 
