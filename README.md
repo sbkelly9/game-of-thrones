@@ -23,16 +23,13 @@ The starter code has been provided for you. `index.html` and `style.css` include
 
 1. Add a button to each character's `div` that prints the name of each character to the console.
 2. Add more functionality to the button: when clicked, the bio of the character appears under their image.
-3. Add an input field and submit button at the top of the page. When the submit button is clicked, only the character that was entered into the input field should remain.
+3. Add an input field at the top of the page. As the user types the character's name, only the character that was entered into the input field should remain.
 4. Using an event listener, add a border around each character's `div` when the mouse is hovered over it.
+5. Alive or Dead?
 
-## Bonus 1
+## Bonus
 
-Have the GOT character who matches the input as the user is typing, instead of when the user click submit.
-
-## Bonus 2
-
-Instead of using a button, when the user clicks anywhere within the character's `div`, it will expand to include their bio. When the user clicks again, it retracts to its initial state.
+Add some additional features. Create a button that when clicked, arranges all characters in alphabetical order. Then, create another button that randomly shuffles the characters.
 
 ## Plagiarism
 
