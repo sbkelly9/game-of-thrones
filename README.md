@@ -4,6 +4,7 @@
 
 You've been tasked with building a Game of Thrones fan page, featuring your favorite characters and a short bio for each one. You can't truly honor the Queen of Dragons with a static HTML/CSS page. You need to add some interactivity!
 
+<img src="img/screenshot.png" alt="screenshot">
 ![screenshot](img/screenshot.png)
 
 ## Prerequisites
