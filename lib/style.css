@@ -41,6 +41,14 @@ img {
   font-size: 18px;
 }
 
+.alive {
+  color: green;
+}
+
+.dead {
+  color: red;
+}
+
 .hidden {
   display: none;
 }
